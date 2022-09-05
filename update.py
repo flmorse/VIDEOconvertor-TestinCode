@@ -2,7 +2,6 @@ from logging import FileHandler, StreamHandler, INFO, basicConfig, error as log_
 from os import path as ospath, environ, execl as osexecl
 from subprocess import run as srun
 from requests import get as rget
-from dotenv import load_dotenv
 from sys import executable
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO')
